@@ -63,7 +63,7 @@ function Main() {
             draggable={true}
             infinite={true}
             arrows={false}>
-            {Object.values(fakeDb.movies).map((movie, id) => {
+            {Object.values(fakeDb.movies).map((_movie, id) => {
               return <MovieCard key={id} id={id} />;
             })}
 

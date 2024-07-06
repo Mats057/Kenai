@@ -1,4 +1,3 @@
-import React from "react";
 import fakeDb from "../../../../public/fakeDb.json";
 import Movie from "../../../interfaces/Movie";
 import { FaRegStar, FaStar } from "react-icons/fa6";

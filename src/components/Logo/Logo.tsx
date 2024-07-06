@@ -14,7 +14,7 @@ function Logo({ size }: { size: string }) {
 
     return (
         <div>
-            <h1 className={`bg-gradient-to-r from-brand2 to-brand inline-block text-transparent bg-clip-text ${textSizeClass} lg:text-[40px]`}>
+            <h1 className={`bg-gradient-to-r select-none from-brand2 to-brand inline-block text-transparent bg-clip-text ${textSizeClass} lg:text-[40px]`}>
                 Kenai
             </h1>
         </div>

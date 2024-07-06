@@ -1,6 +1,6 @@
 import Header from "./Header/Header";
 import Carousel from "react-multi-carousel";
-import fakeDb from "../../../public/fakeDb.json";
+import fakeDb from "../../assets/fakeDb.json";
 import "react-multi-carousel/lib/styles.css";
 import { ImClock } from "react-icons/im";
 import { FaRegStar } from "react-icons/fa6";
@@ -24,7 +24,7 @@ const responsive = {
 
 function Main() {
   return (
-    <div className="bg-dark10 min-h-svh bg-[url(../../../public/image.png)] bg-cover bg-center vignette text-white select-none">
+    <div className="bg-dark10 min-h-svh bg-[url(/image.png)] bg-cover bg-center vignette text-white select-none">
       <Header />
       <main className="py-12 px-4 md:px-8 lg:max-w-[60%] lg:mx-auto">
         <div className="bg-dark20 inline-block px-4 rounded-tl-xl rounded-br-xl text-brand font-semibold">

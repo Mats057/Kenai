@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import UserPhoto from '../../../../public/user.jpg'
+import UserPhoto from '/user.jpg'
 
 function User({name} : {name: string}) {
     const navigate = useNavigate();

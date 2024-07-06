@@ -8,8 +8,8 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element={<UserSelect />} />
-      <Route path='/main' element={<Main />} />
+      <Route path="Kenai/" element={<UserSelect />} />
+      <Route path='Kenai/main' element={<Main />} />
     </Routes>
     </>
   )

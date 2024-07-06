@@ -11,10 +11,10 @@ function Nav() {
           <CiSearch className="text-4xl"/>
         </li>
         <li>
-          <Link to="/">Início</Link>
+          <Link to="/Kenai/">Início</Link>
         </li>
         <li>
-          <Link to="/">Minha lista</Link>
+          <Link to="/Kenai/">Minha lista</Link>
         </li>
         <li>
           <IoIosNotificationsOutline className="text-4xl"/>

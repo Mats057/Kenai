@@ -4,7 +4,7 @@ import UserPhoto from '/user.jpg'
 function User({name} : {name: string}) {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/main')
+        navigate('./main')
     }
     return (
         <div className='group flex flex-col items-center cursor-pointer hover:scale-110 transition-all select-none' onClick={handleClick}>

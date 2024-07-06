@@ -2,7 +2,7 @@
   "name": "kenai",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://mats057.github.io/Kenai/",
+  "homepage": "https://mats057.github.io/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
